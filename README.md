@@ -30,8 +30,8 @@ and it worked wonderfully there, but nothing being used is 1.12-specific.
 
 #### If you don't have a Harp website set up yet
 
-Skip ahead to "Starting the container". It will automatically spin up the
-default Harp website for you!
+Skip ahead to "[Starting the container](#starting-the-container)". It will
+automatically spin up the default Harp website for you!
 
 #### If you already have the source for a Harp website
 
