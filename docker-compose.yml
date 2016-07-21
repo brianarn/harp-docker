@@ -1,0 +1,10 @@
+version: '2'
+services:
+  harp:
+    build: .
+    ports:
+      - "9000:9000"
+    volumes:
+      - ./bin:/usr/src/bin
+      - ./public:/usr/src/public
+      - ./site:/usr/src/site

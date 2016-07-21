@@ -3,9 +3,9 @@
   "version": "0.0.1",
   "description": "A simple containerized version of a Harp.js web app, using Docker",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prestart": "if [ ! -d site ]; then harp init site; fi",
-    "start": "harp server site"
+    "prestart": "./bin/prestart.sh",
+    "start": "harp server site",
+    "build": "harp compile site public"
   },
   "author": "Brian Sinclair",
   "license": "MIT",
