@@ -89,9 +89,9 @@ docker-compose run harp npm run build
 ```
 
 The first portion of the command, `docker-compose run harp`, indicates to run a
-command with the `harp` container, which is where the application is executing.
-The second half, `npm run build`, is executing the `build` script as configured
-in `package.json`.
+command with the `harp` container, which is where Harp is currently being
+executed. The second half, `npm run build`, is executing the `build` script as
+configured in `package.json`.
 
 At this point, the build command is running `harp compile site public`, which
 means that after you've executed the command, you'll have a `public` folder next
