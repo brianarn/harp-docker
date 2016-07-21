@@ -69,8 +69,9 @@ harp_1  | Press Ctl+C to stop the server
 harp_1  | ------------
 ```
 
-As indicated, you should now be able to browse to http://localhost:9000/ and see
-your Harp website, powered from within a Docker container!
+As indicated, you should now be able to browse to
+[http://localhost:9000/](http://localhost:9000/) and see your Harp website,
+powered from within a Docker container!
 
 #### Developing your site
 
