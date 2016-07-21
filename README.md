@@ -58,6 +58,20 @@ set up the default Harp website template inside of it. See
 [`bin/prestart.sh`](./bin/prestart.sh) for details on what exactly is being
 executed here.
 
+Once everything is up and running, you should see some notice like the
+following:
+
+```
+harp_1  | ------------
+harp_1  | Harp v0.20.3 – Chloi Inc. 2012–2015
+harp_1  | Your server is listening at http://localhost:9000/
+harp_1  | Press Ctl+C to stop the server
+harp_1  | ------------
+```
+
+As indicated, you should now be able to browse to http://localhost:9000/ and see
+your Harp website, powered from within a Docker container!
+
 #### Developing your site
 
 Make your changes in `site`, and refresh your page! There is not currently
